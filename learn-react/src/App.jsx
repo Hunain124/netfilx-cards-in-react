@@ -1,4 +1,5 @@
 import { Netflixseries, Header, Footer } from "./components/Netflixseries";
+import "./components/Netflix.module.css"
 export const App = () => {
   return (
     <section className="container">

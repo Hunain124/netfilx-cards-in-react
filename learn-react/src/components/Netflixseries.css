@@ -1,55 +1,86 @@
-.menu ul{
+.menu ul {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
-.menu ul li{
+
+.menu ul li {
     list-style: none;
 }
+
 .menu ul li a:hover {
     color: #000;
 }
-.data-cards li{
+
+.data-cards li {
     list-style: none;
 }
+
 /* today my css */
-.card-heading{
+.card-heading {
     margin-bottom: 4rem;
     text-align: center;
     text-transform: uppercase;
 }
-.card-images{
-    height:100%;
+
+.card-images {
+    height: 100%;
     width: 100%;
     object-fit: cover;
 }
+
 .summary-text {
-  display: -webkit-box;
-  -webkit-line-clamp: 3; 
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
-.card-list{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  gap: 1.5rem;
-  border-radius: 0.4rem;
-   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
-   padding: 2rem;
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 2rem;
 }
-.btn-card{
+
+.btn-card {
     font-size: 1.8rem;
     background: #003C97;
     color: #fff;
-    border:1px solid #003C97;
+    border: 1px solid #003C97;
     padding: 1rem 2rem;
     border-radius: 0.3rem;
+    cursor: pointer;
 }
-.btn-card:hover{
+
+.btn-card:hover {
     background: transparent;
     color: #003C97;
-    border:1px solid #003C97;
+    border: 1px solid #003C97;
     transition: 0.5s ease-in-out;
+}
+
+.super_hit {
+    background: #7dcea0;
+    border: 1px solid #7dcea0;
+}
+
+.average {
+    background: #f7dc6f;
+    border: 1px solid #f7dc6f;
+}
+
+.rating {
+    padding: 0.3rem 1.8rem;
+    color: #fff;
+    margin-left: 1.2rem;
+    border-radius: 100rem;
+    -webkit-border-radius: 100rem;
+    -moz-border-radius: 100rem;
+    -ms-border-radis: 100rem;
+    -o-border-radius: 100rem;
 }

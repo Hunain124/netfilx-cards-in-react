@@ -35,10 +35,21 @@ I built this project while learning the basics of **React.js**, including compon
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/netflix-cards-in-react.git
-2. Navigate into the project folder:
-3. cd netflix-cards-in-react
-4. pm install
-5. npm run dev
+Navigate into the project folder:
+
+bash
+Copy code
+cd netflix-cards-in-react
+Install dependencies:
+
+bash
+Copy code
+npm install
+Run the development server:
+
+bash
+Copy code
+npm run dev
 
 ![Project image](image.png)
 
